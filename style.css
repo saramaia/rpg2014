@@ -1,0 +1,156 @@
+﻿/* css */
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+body {
+
+    background: url("background_principal.jpg");
+    background-repeat: left; 
+    font-size: 15pt;
+
+}
+
+/* Imagens das postagens */
+img#postagem {    
+    text-align: center;
+    width: 600px;
+    margin: 10px 150px 10px 150px; 
+    padding: 1px;
+    border-radius: 60px;
+    border-style: dotted;
+    border-width: 2px 2px 5px 2px ;
+    border-color: #000;
+
+}
+
+div {
+    border-width: 0px;
+    border-color: #fff;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+/*Div Geral */
+div#site{
+    margin: 0px auto;
+    width: 1000px;
+}
+/*Cabeçalho */
+div#header{
+    text-align: center;
+}
+
+/*Menu*/
+div#menu {
+    background: url("bg_menu.png");
+    text-align: center;
+
+
+    
+}
+div#conteudo{
+    background-color: rgba(500, 500, 500, 0.8);
+    /*opacity: 0.8;*/
+    font-family: Palatino Linotype;
+    text-align: justify;
+
+    
+    
+}
+
+ul#domenu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 60px 0px 60px;
+    padding: 1px 10px 1px 10px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: -3px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+
+
+}
+
+
+
+ul#domenu li a:link{ /* tem que ser igual o visited*/
+    text-decoration: none;
+    color: #fff;
+
+    
+}
+ul#domenu li a:hover{ /*tem que ser igual o active */
+    border-bottom: 5px dotted #fc8d5f;
+    
+} 
+ul #domenu li a:active{
+    border-bottom: 5px dotted #fc9d5f;
+}
+ul#domenu li a:visited{
+    text-decoration: none;
+    color: #fff;
+
+    }
+
+    
+
+b {
+    color: #fc9d5f;
+    font-size: 17pt;
+}
+b:hover{ 
+    color: #04803E;
+    transition-duration: 1s;
+}
+i {
+    border-bottom: dashed 1px #fc9d5f;
+    text-decoration: none;
+    color: #2B2B2B;
+    
+    
+}
+/*Links das opções */
+p.comandos {
+    text-align: center;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+    font-family: Monospace;
+    }
+p.comandos a:link{ /* tem que ser igual o visited */
+    text-align: center;
+    font-size: 19pt;
+    text-transform: lowercase;
+    color: #178646;
+    text-decoration: none;
+    
+
+}
+p.comandos a:hover{ /* tem que ser igual o active */
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition-duration: 1s;
+    border: 3px ;
+    border-color: #fc9d5f;
+    border-style: dotted;
+    box-shadow: 5px 5px 5px 1px #888888;
+    }
+p.comandos a:visited{
+    text-align: center;
+    font-size: 19pt;
+    text-transform: lowercase;
+    color: #178646;
+    text-decoration: none;
+}
+p.comandos a:active{
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition-duration: 1s;
+    border: 3px ;
+    border-color: #fc9d5f;
+    border-style: dotted;
+    box-shadow: 5px 5px 5px 1px #888888;
+}
+
